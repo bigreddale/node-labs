@@ -5,10 +5,10 @@
 
 To get to know the `path` module, answer the following using an interactive `node` session:
 
-1. What is the normalized path of '/usr/lib/../local/lib/cairo/../../bin'?
-1. What is the joined path from '/usr', 'lib', '../local', 'share/xml/fontconfig' and 'fonts.dtd'?
+1. What is the normalized path of `'/usr/lib/../local/lib/cairo/../../bin'`?
+1. What is the joined path from `'/usr'`, `'lib'`, `'../local'`, `'share/xml/fontconfig'` and `'fonts.dtd'`?
     - If you use `path.join()`, does it normalize the resulting path too, or not?
-1. What does `path.resolve()` do with '../thing', '/etc/init.d', './foo' and '../bar/../mysqld'?
+1. What does `path.resolve()` do with `'../thing'`, `'/etc/init.d'`, `'./foo'` and `'../bar/../mysqld'`?
 1. How would you get from `/usr/local/share/xml/` to `/usr/man` using a relative path?
 1. Which directory is `/usr/local/share/xml/fontconfig/fonts.dtd` in?
 
