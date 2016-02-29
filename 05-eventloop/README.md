@@ -5,7 +5,7 @@
 
 ### Pre-Lab
 
-1. In Lab 03, you wrote a `ticker-client.js` which monitored
+1. In Lab 04, you wrote a `ticker-client.js` which monitored
    `'tick'` events.
    1. Modify it to listen for 'start' events too,
       and to display the messge `ticker started`.
